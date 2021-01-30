@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-func Solution2(A []int, K int) []int {
+func Rotation(A []int, K int) []int {
 	if A == nil {
 		return nil
 	}
@@ -52,4 +52,8 @@ func Solution2_ben(A []int, K int) []int {
 		result = append([]int{result[len(result)-1]}, result[:len(result)-1]...)
 	}
 	return result
+}
+func main() {
+	A := []int{}
+	Rotation(A, 4)
 }

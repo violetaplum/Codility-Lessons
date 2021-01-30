@@ -5,7 +5,7 @@ import (
 	"math"
 )
 
-func Solution6(A []int) int {
+func TapeEquilibrium(A []int) int {
 	length := len(A)
 	if length < 1 {
 		return 0
@@ -83,5 +83,5 @@ func Solution6_ben(A []int) int {
 
 func main() {
 	A := []int{-10, -20, -30, -40, 100}
-	fmt.Println(Solution6(A))
+	fmt.Println(TapeEquilibrium(A))
 }

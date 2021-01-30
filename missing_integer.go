@@ -5,7 +5,7 @@ import (
 	"sort"
 )
 
-func Solution9(A []int) int {
+func MissingInteger(A []int) int {
 	sort.Ints(A)
 	if A[len(A)-1] <= 0 {
 		// 마지막 인덱스가 0 이하면
@@ -40,5 +40,5 @@ func Solution9_ben(A []int) int {
 
 func main() {
 	A := []int{1, 2, 3}
-	fmt.Println(Solution9(A))
+	fmt.Println(MissingInteger(A))
 }

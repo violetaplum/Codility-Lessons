@@ -2,7 +2,7 @@ package main
 
 import "sort"
 
-func Solution3(A []int) int {
+func OddOccurrencesInArray(A []int) int {
 	sort.Ints(A)
 	var returnValue int
 	if len(A) == 1 {
@@ -41,4 +41,9 @@ func Solution3_ben(A []int) int {
 	}
 
 	return 0
+}
+
+func main() {
+	A := []int{}
+	OddOccurrencesInArray(A)
 }

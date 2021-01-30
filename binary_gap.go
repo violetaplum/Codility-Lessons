@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-func Solution(N int) int {
+func BinaryGap(N int) int {
 	count := 0
 	binary := strconv.FormatInt(int64(N), 2)
 	if strings.Count(binary, "1") == 1 {
@@ -28,5 +28,5 @@ func Solution(N int) int {
 }
 
 func main() {
-	fmt.Println(Solution(16))
+	fmt.Println(BinaryGap(16))
 }

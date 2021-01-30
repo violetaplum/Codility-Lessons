@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func Solution7(X int, A []int) int {
+func GrogRiverOne(X int, A []int) int {
 	sum := (X * (X + 1)) / 2
 
 	mapping := map[int]bool{}
@@ -23,5 +23,5 @@ func Solution7(X int, A []int) int {
 
 func main() {
 	A := []int{1, 3, 1, 4, 2, 3, 5, 4}
-	fmt.Println(Solution7(5, A))
+	fmt.Println(GrogRiverOne(5, A))
 }
