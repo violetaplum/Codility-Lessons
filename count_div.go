@@ -15,7 +15,6 @@ func CountDiv(A int, B int, K int) int {
 	} else {
 		return Bdiv - Adiv
 	}
-
 }
 
 func main() {
